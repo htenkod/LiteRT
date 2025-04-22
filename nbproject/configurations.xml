@@ -1,0 +1,869 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="65">
+  <logicalFolder name="root" displayName="root" projectFiles="true">
+    <logicalFolder name="HeaderFiles"
+                   displayName="Header Files"
+                   projectFiles="true">
+      <logicalFolder name="signal" displayName="signal" projectFiles="true">
+        <logicalFolder name="micro" displayName="micro" projectFiles="true">
+          <logicalFolder name="kernels" displayName="kernels" projectFiles="true">
+            <itemPath>litert_src/signal/micro/kernels/fft_auto_scale_kernel.h</itemPath>
+            <itemPath>litert_src/signal/micro/kernels/stacker_flexbuffers_generated_data.h</itemPath>
+            <itemPath>litert_src/signal/micro/kernels/window_flexbuffers_generated_data.h</itemPath>
+            <itemPath>litert_src/signal/micro/kernels/filter_bank_square_root.h</itemPath>
+            <itemPath>litert_src/signal/micro/kernels/energy_flexbuffers_generated_data.h</itemPath>
+            <itemPath>litert_src/signal/micro/kernels/overlap_add_flexbuffers_generated_data.h</itemPath>
+            <itemPath>litert_src/signal/micro/kernels/fft_flexbuffers_generated_data.h</itemPath>
+            <itemPath>litert_src/signal/micro/kernels/rfft.h</itemPath>
+            <itemPath>litert_src/signal/micro/kernels/filter_bank_flexbuffers_generated_data.h</itemPath>
+            <itemPath>litert_src/signal/micro/kernels/filter_bank_log_flexbuffers_generated_data.h</itemPath>
+            <itemPath>litert_src/signal/micro/kernels/pcan_flexbuffers_generated_data.h</itemPath>
+            <itemPath>litert_src/signal/micro/kernels/irfft.h</itemPath>
+            <itemPath>litert_src/signal/micro/kernels/delay_flexbuffers_generated_data.h</itemPath>
+            <itemPath>litert_src/signal/micro/kernels/framer_flexbuffers_generated_data.h</itemPath>
+            <itemPath>litert_src/signal/micro/kernels/filter_bank_spectral_subtraction_flexbuffers_generated_data.h</itemPath>
+          </logicalFolder>
+        </logicalFolder>
+        <logicalFolder name="src" displayName="src" projectFiles="true">
+          <logicalFolder name="kiss_fft_wrappers"
+                         displayName="kiss_fft_wrappers"
+                         projectFiles="true">
+            <itemPath>litert_src/signal/src/kiss_fft_wrappers/kiss_fft_int32.h</itemPath>
+            <itemPath>litert_src/signal/src/kiss_fft_wrappers/kiss_fft_int16.h</itemPath>
+            <itemPath>litert_src/signal/src/kiss_fft_wrappers/kiss_fft_common.h</itemPath>
+            <itemPath>litert_src/signal/src/kiss_fft_wrappers/kiss_fft_float.h</itemPath>
+          </logicalFolder>
+          <itemPath>litert_src/signal/src/fft_auto_scale.h</itemPath>
+          <itemPath>litert_src/signal/src/circular_buffer.h</itemPath>
+          <itemPath>litert_src/signal/src/filter_bank_spectral_subtraction.h</itemPath>
+          <itemPath>litert_src/signal/src/filter_bank_square_root.h</itemPath>
+          <itemPath>litert_src/signal/src/msb.h</itemPath>
+          <itemPath>litert_src/signal/src/window.h</itemPath>
+          <itemPath>litert_src/signal/src/filter_bank_log.h</itemPath>
+          <itemPath>litert_src/signal/src/max_abs.h</itemPath>
+          <itemPath>litert_src/signal/src/overlap_add.h</itemPath>
+          <itemPath>litert_src/signal/src/square_root.h</itemPath>
+          <itemPath>litert_src/signal/src/log.h</itemPath>
+          <itemPath>litert_src/signal/src/filter_bank.h</itemPath>
+          <itemPath>litert_src/signal/src/rfft.h</itemPath>
+          <itemPath>litert_src/signal/src/energy.h</itemPath>
+          <itemPath>litert_src/signal/src/pcan_argc_fixed.h</itemPath>
+          <itemPath>litert_src/signal/src/irfft.h</itemPath>
+          <itemPath>litert_src/signal/src/complex.h</itemPath>
+        </logicalFolder>
+      </logicalFolder>
+      <logicalFolder name="tensorflow" displayName="tensorflow" projectFiles="true">
+        <logicalFolder name="compiler" displayName="compiler" projectFiles="true">
+          <logicalFolder name="mlir" displayName="mlir" projectFiles="true">
+            <logicalFolder name="lite" displayName="lite" projectFiles="true">
+              <logicalFolder name="core" displayName="core" projectFiles="true">
+                <logicalFolder name="api" displayName="api" projectFiles="true">
+                  <itemPath>litert_src/tensorflow/compiler/mlir/lite/core/api/error_reporter.h</itemPath>
+                </logicalFolder>
+                <logicalFolder name="c" displayName="c" projectFiles="true">
+                  <itemPath>litert_src/tensorflow/compiler/mlir/lite/core/c/tflite_types.h</itemPath>
+                  <itemPath>litert_src/tensorflow/compiler/mlir/lite/core/c/builtin_op_data.h</itemPath>
+                </logicalFolder>
+              </logicalFolder>
+              <logicalFolder name="kernels" displayName="kernels" projectFiles="true">
+                <logicalFolder name="internal" displayName="internal" projectFiles="true">
+                  <itemPath>litert_src/tensorflow/compiler/mlir/lite/kernels/internal/compatibility_macros.h</itemPath>
+                </logicalFolder>
+              </logicalFolder>
+              <logicalFolder name="schema" displayName="schema" projectFiles="true">
+                <itemPath>litert_src/tensorflow/compiler/mlir/lite/schema/schema_utils.h</itemPath>
+                <itemPath>litert_src/tensorflow/compiler/mlir/lite/schema/schema_generated.h</itemPath>
+              </logicalFolder>
+            </logicalFolder>
+          </logicalFolder>
+        </logicalFolder>
+        <logicalFolder name="lite" displayName="lite" projectFiles="true">
+          <logicalFolder name="c" displayName="c" projectFiles="true">
+            <itemPath>litert_src/tensorflow/lite/c/c_api_types.h</itemPath>
+            <itemPath>litert_src/tensorflow/lite/c/builtin_op_data.h</itemPath>
+            <itemPath>litert_src/tensorflow/lite/c/common.h</itemPath>
+          </logicalFolder>
+          <logicalFolder name="core" displayName="core" projectFiles="true">
+            <logicalFolder name="api" displayName="api" projectFiles="true">
+              <itemPath>litert_src/tensorflow/lite/core/api/tensor_utils.h</itemPath>
+              <itemPath>litert_src/tensorflow/lite/core/api/error_reporter.h</itemPath>
+              <itemPath>litert_src/tensorflow/lite/core/api/flatbuffer_conversions.h</itemPath>
+            </logicalFolder>
+            <logicalFolder name="c" displayName="c" projectFiles="true">
+              <itemPath>litert_src/tensorflow/lite/core/c/c_api_types.h</itemPath>
+              <itemPath>litert_src/tensorflow/lite/core/c/builtin_op_data.h</itemPath>
+              <itemPath>litert_src/tensorflow/lite/core/c/common.h</itemPath>
+            </logicalFolder>
+            <itemPath>litert_src/tensorflow/lite/core/macros.h</itemPath>
+          </logicalFolder>
+          <logicalFolder name="kernels" displayName="kernels" projectFiles="true">
+            <logicalFolder name="internal" displayName="internal" projectFiles="true">
+              <logicalFolder name="optimized" displayName="optimized" projectFiles="true">
+                <itemPath>litert_src/tensorflow/lite/kernels/internal/optimized/neon_check.h</itemPath>
+              </logicalFolder>
+              <logicalFolder name="reference" displayName="reference" projectFiles="true">
+                <logicalFolder name="integer_ops" displayName="integer_ops" projectFiles="true">
+                  <itemPath>litert_src/tensorflow/lite/kernels/internal/reference/integer_ops/depthwise_conv.h</itemPath>
+                  <itemPath>litert_src/tensorflow/lite/kernels/internal/reference/integer_ops/logistic.h</itemPath>
+                  <itemPath>litert_src/tensorflow/lite/kernels/internal/reference/integer_ops/fully_connected.h</itemPath>
+                  <itemPath>litert_src/tensorflow/lite/kernels/internal/reference/integer_ops/add.h</itemPath>
+                  <itemPath>litert_src/tensorflow/lite/kernels/internal/reference/integer_ops/l2normalization.h</itemPath>
+                  <itemPath>litert_src/tensorflow/lite/kernels/internal/reference/integer_ops/tanh.h</itemPath>
+                  <itemPath>litert_src/tensorflow/lite/kernels/internal/reference/integer_ops/mul.h</itemPath>
+                  <itemPath>litert_src/tensorflow/lite/kernels/internal/reference/integer_ops/mean.h</itemPath>
+                  <itemPath>litert_src/tensorflow/lite/kernels/internal/reference/integer_ops/pooling.h</itemPath>
+                  <itemPath>litert_src/tensorflow/lite/kernels/internal/reference/integer_ops/transpose_conv.h</itemPath>
+                  <itemPath>litert_src/tensorflow/lite/kernels/internal/reference/integer_ops/conv.h</itemPath>
+                </logicalFolder>
+                <itemPath>litert_src/tensorflow/lite/kernels/internal/reference/softmax.h</itemPath>
+                <itemPath>litert_src/tensorflow/lite/kernels/internal/reference/quantize.h</itemPath>
+                <itemPath>litert_src/tensorflow/lite/kernels/internal/reference/dequantize.h</itemPath>
+                <itemPath>litert_src/tensorflow/lite/kernels/internal/reference/portable_tensor_utils_impl.h</itemPath>
+                <itemPath>litert_src/tensorflow/lite/kernels/internal/reference/strided_slice.h</itemPath>
+                <itemPath>litert_src/tensorflow/lite/kernels/internal/reference/floor_div.h</itemPath>
+                <itemPath>litert_src/tensorflow/lite/kernels/internal/reference/fill.h</itemPath>
+                <itemPath>litert_src/tensorflow/lite/kernels/internal/reference/requantize.h</itemPath>
+                <itemPath>litert_src/tensorflow/lite/kernels/internal/reference/leaky_relu.h</itemPath>
+                <itemPath>litert_src/tensorflow/lite/kernels/internal/reference/floor_mod.h</itemPath>
+                <itemPath>litert_src/tensorflow/lite/kernels/internal/reference/logistic.h</itemPath>
+                <itemPath>litert_src/tensorflow/lite/kernels/internal/reference/fully_connected.h</itemPath>
+                <itemPath>litert_src/tensorflow/lite/kernels/internal/reference/broadcast_args.h</itemPath>
+                <itemPath>litert_src/tensorflow/lite/kernels/internal/reference/prelu.h</itemPath>
+                <itemPath>litert_src/tensorflow/lite/kernels/internal/reference/round.h</itemPath>
+                <itemPath>litert_src/tensorflow/lite/kernels/internal/reference/sub.h</itemPath>
+                <itemPath>litert_src/tensorflow/lite/kernels/internal/reference/add_n.h</itemPath>
+                <itemPath>litert_src/tensorflow/lite/kernels/internal/reference/slice.h</itemPath>
+                <itemPath>litert_src/tensorflow/lite/kernels/internal/reference/pad.h</itemPath>
+                <itemPath>litert_src/tensorflow/lite/kernels/internal/reference/add.h</itemPath>
+                <itemPath>litert_src/tensorflow/lite/kernels/internal/reference/l2normalization.h</itemPath>
+                <itemPath>litert_src/tensorflow/lite/kernels/internal/reference/log_softmax.h</itemPath>
+                <itemPath>litert_src/tensorflow/lite/kernels/internal/reference/arg_min_max.h</itemPath>
+                <itemPath>litert_src/tensorflow/lite/kernels/internal/reference/broadcast_to.h</itemPath>
+                <itemPath>litert_src/tensorflow/lite/kernels/internal/reference/ceil.h</itemPath>
+                <itemPath>litert_src/tensorflow/lite/kernels/internal/reference/hard_swish.h</itemPath>
+                <itemPath>litert_src/tensorflow/lite/kernels/internal/reference/resize_nearest_neighbor.h</itemPath>
+                <itemPath>litert_src/tensorflow/lite/kernels/internal/reference/concatenation.h</itemPath>
+                <itemPath>litert_src/tensorflow/lite/kernels/internal/reference/depthwiseconv_uint8.h</itemPath>
+                <itemPath>litert_src/tensorflow/lite/kernels/internal/reference/tanh.h</itemPath>
+                <itemPath>litert_src/tensorflow/lite/kernels/internal/reference/lstm_cell.h</itemPath>
+                <itemPath>litert_src/tensorflow/lite/kernels/internal/reference/space_to_batch_nd.h</itemPath>
+                <itemPath>litert_src/tensorflow/lite/kernels/internal/reference/mul.h</itemPath>
+                <itemPath>litert_src/tensorflow/lite/kernels/internal/reference/portable_tensor_utils.h</itemPath>
+                <itemPath>litert_src/tensorflow/lite/kernels/internal/reference/elu.h</itemPath>
+                <itemPath>litert_src/tensorflow/lite/kernels/internal/reference/cumsum.h</itemPath>
+                <itemPath>litert_src/tensorflow/lite/kernels/internal/reference/reduce.h</itemPath>
+                <itemPath>litert_src/tensorflow/lite/kernels/internal/reference/depthwiseconv_float.h</itemPath>
+                <itemPath>litert_src/tensorflow/lite/kernels/internal/reference/process_broadcast_shapes.h</itemPath>
+                <itemPath>litert_src/tensorflow/lite/kernels/internal/reference/space_to_depth.h</itemPath>
+                <itemPath>litert_src/tensorflow/lite/kernels/internal/reference/batch_to_space_nd.h</itemPath>
+                <itemPath>litert_src/tensorflow/lite/kernels/internal/reference/maximum_minimum.h</itemPath>
+                <itemPath>litert_src/tensorflow/lite/kernels/internal/reference/exp.h</itemPath>
+                <itemPath>litert_src/tensorflow/lite/kernels/internal/reference/pooling.h</itemPath>
+                <itemPath>litert_src/tensorflow/lite/kernels/internal/reference/neg.h</itemPath>
+                <itemPath>litert_src/tensorflow/lite/kernels/internal/reference/comparisons.h</itemPath>
+                <itemPath>litert_src/tensorflow/lite/kernels/internal/reference/transpose_conv.h</itemPath>
+                <itemPath>litert_src/tensorflow/lite/kernels/internal/reference/resize_bilinear.h</itemPath>
+                <itemPath>litert_src/tensorflow/lite/kernels/internal/reference/batch_matmul.h</itemPath>
+                <itemPath>litert_src/tensorflow/lite/kernels/internal/reference/transpose.h</itemPath>
+                <itemPath>litert_src/tensorflow/lite/kernels/internal/reference/depth_to_space.h</itemPath>
+                <itemPath>litert_src/tensorflow/lite/kernels/internal/reference/conv.h</itemPath>
+                <itemPath>litert_src/tensorflow/lite/kernels/internal/reference/floor.h</itemPath>
+                <itemPath>litert_src/tensorflow/lite/kernels/internal/reference/binary_function.h</itemPath>
+                <itemPath>litert_src/tensorflow/lite/kernels/internal/reference/div.h</itemPath>
+                <itemPath>litert_src/tensorflow/lite/kernels/internal/reference/select.h</itemPath>
+              </logicalFolder>
+              <itemPath>litert_src/tensorflow/lite/kernels/internal/compatibility.h</itemPath>
+              <itemPath>litert_src/tensorflow/lite/kernels/internal/portable_tensor.h</itemPath>
+              <itemPath>litert_src/tensorflow/lite/kernels/internal/min.h</itemPath>
+              <itemPath>litert_src/tensorflow/lite/kernels/internal/types.h</itemPath>
+              <itemPath>litert_src/tensorflow/lite/kernels/internal/cppmath.h</itemPath>
+              <itemPath>litert_src/tensorflow/lite/kernels/internal/quantization_util.h</itemPath>
+              <itemPath>litert_src/tensorflow/lite/kernels/internal/portable_tensor_utils.h</itemPath>
+              <itemPath>litert_src/tensorflow/lite/kernels/internal/common.h</itemPath>
+              <itemPath>litert_src/tensorflow/lite/kernels/internal/max.h</itemPath>
+              <itemPath>litert_src/tensorflow/lite/kernels/internal/strided_slice_logic.h</itemPath>
+              <itemPath>litert_src/tensorflow/lite/kernels/internal/tensor_ctypes.h</itemPath>
+              <itemPath>litert_src/tensorflow/lite/kernels/internal/runtime_shape.h</itemPath>
+            </logicalFolder>
+            <itemPath>litert_src/tensorflow/lite/kernels/kernel_util.h</itemPath>
+            <itemPath>litert_src/tensorflow/lite/kernels/op_macros.h</itemPath>
+            <itemPath>litert_src/tensorflow/lite/kernels/padding.h</itemPath>
+          </logicalFolder>
+          <logicalFolder name="micro" displayName="micro" projectFiles="true">
+            <logicalFolder name="arena_allocator"
+                           displayName="arena_allocator"
+                           projectFiles="true">
+              <itemPath>litert_src/tensorflow/lite/micro/arena_allocator/single_arena_buffer_allocator.h</itemPath>
+              <itemPath>litert_src/tensorflow/lite/micro/arena_allocator/non_persistent_arena_buffer_allocator.h</itemPath>
+              <itemPath>litert_src/tensorflow/lite/micro/arena_allocator/persistent_arena_buffer_allocator.h</itemPath>
+              <itemPath>litert_src/tensorflow/lite/micro/arena_allocator/recording_single_arena_buffer_allocator.h</itemPath>
+              <itemPath>litert_src/tensorflow/lite/micro/arena_allocator/ibuffer_allocator.h</itemPath>
+            </logicalFolder>
+            <logicalFolder name="kernels" displayName="kernels" projectFiles="true">
+              <itemPath>litert_src/tensorflow/lite/micro/kernels/softmax.h</itemPath>
+              <itemPath>litert_src/tensorflow/lite/micro/kernels/quantize.h</itemPath>
+              <itemPath>litert_src/tensorflow/lite/micro/kernels/dequantize.h</itemPath>
+              <itemPath>litert_src/tensorflow/lite/micro/kernels/ethosu.h</itemPath>
+              <itemPath>litert_src/tensorflow/lite/micro/kernels/strided_slice.h</itemPath>
+              <itemPath>litert_src/tensorflow/lite/micro/kernels/depthwise_conv.h</itemPath>
+              <itemPath>litert_src/tensorflow/lite/micro/kernels/kernel_runner.h</itemPath>
+              <itemPath>litert_src/tensorflow/lite/micro/kernels/circular_buffer.h</itemPath>
+              <itemPath>litert_src/tensorflow/lite/micro/kernels/unidirectional_sequence_lstm.h</itemPath>
+              <itemPath>litert_src/tensorflow/lite/micro/kernels/leaky_relu.h</itemPath>
+              <itemPath>litert_src/tensorflow/lite/micro/kernels/circular_buffer_flexbuffers_generated_data.h</itemPath>
+              <itemPath>litert_src/tensorflow/lite/micro/kernels/logistic.h</itemPath>
+              <itemPath>litert_src/tensorflow/lite/micro/kernels/kernel_util.h</itemPath>
+              <itemPath>litert_src/tensorflow/lite/micro/kernels/fully_connected.h</itemPath>
+              <itemPath>litert_src/tensorflow/lite/micro/kernels/svdf.h</itemPath>
+              <itemPath>litert_src/tensorflow/lite/micro/kernels/prelu.h</itemPath>
+              <itemPath>litert_src/tensorflow/lite/micro/kernels/sub.h</itemPath>
+              <itemPath>litert_src/tensorflow/lite/micro/kernels/pad.h</itemPath>
+              <itemPath>litert_src/tensorflow/lite/micro/kernels/lstm_eval.h</itemPath>
+              <itemPath>litert_src/tensorflow/lite/micro/kernels/add.h</itemPath>
+              <itemPath>litert_src/tensorflow/lite/micro/kernels/activation_utils.h</itemPath>
+              <itemPath>litert_src/tensorflow/lite/micro/kernels/hard_swish.h</itemPath>
+              <itemPath>litert_src/tensorflow/lite/micro/kernels/lstm_shared.h</itemPath>
+              <itemPath>litert_src/tensorflow/lite/micro/kernels/mul.h</itemPath>
+              <itemPath>litert_src/tensorflow/lite/micro/kernels/micro_tensor_utils.h</itemPath>
+              <itemPath>litert_src/tensorflow/lite/micro/kernels/conv_test.h</itemPath>
+              <itemPath>litert_src/tensorflow/lite/micro/kernels/reshape.h</itemPath>
+              <itemPath>litert_src/tensorflow/lite/micro/kernels/detection_postprocess_flexbuffers_generated_data.h</itemPath>
+              <itemPath>litert_src/tensorflow/lite/micro/kernels/decompress.h</itemPath>
+              <itemPath>litert_src/tensorflow/lite/micro/kernels/reduce.h</itemPath>
+              <itemPath>litert_src/tensorflow/lite/micro/kernels/maximum_minimum.h</itemPath>
+              <itemPath>litert_src/tensorflow/lite/micro/kernels/logical.h</itemPath>
+              <itemPath>litert_src/tensorflow/lite/micro/kernels/pooling.h</itemPath>
+              <itemPath>litert_src/tensorflow/lite/micro/kernels/transpose_conv.h</itemPath>
+              <itemPath>litert_src/tensorflow/lite/micro/kernels/activations.h</itemPath>
+              <itemPath>litert_src/tensorflow/lite/micro/kernels/batch_matmul.h</itemPath>
+              <itemPath>litert_src/tensorflow/lite/micro/kernels/conv.h</itemPath>
+              <itemPath>litert_src/tensorflow/lite/micro/kernels/lstm_eval_test.h</itemPath>
+              <itemPath>litert_src/tensorflow/lite/micro/kernels/micro_ops.h</itemPath>
+            </logicalFolder>
+            <logicalFolder name="memory_planner"
+                           displayName="memory_planner"
+                           projectFiles="true">
+              <itemPath>litert_src/tensorflow/lite/micro/memory_planner/greedy_memory_planner.h</itemPath>
+              <itemPath>litert_src/tensorflow/lite/micro/memory_planner/non_persistent_buffer_planner_shim.h</itemPath>
+              <itemPath>litert_src/tensorflow/lite/micro/memory_planner/micro_memory_planner.h</itemPath>
+              <itemPath>litert_src/tensorflow/lite/micro/memory_planner/memory_plan_struct.h</itemPath>
+              <itemPath>litert_src/tensorflow/lite/micro/memory_planner/linear_memory_planner.h</itemPath>
+            </logicalFolder>
+            <logicalFolder name="models" displayName="models" projectFiles="true">
+              <itemPath>litert_src/tensorflow/lite/micro/models/person_detect_model_data.h</itemPath>
+            </logicalFolder>
+            <logicalFolder name="testing" displayName="testing" projectFiles="true">
+              <itemPath>litert_src/tensorflow/lite/micro/testing/micro_test.h</itemPath>
+            </logicalFolder>
+            <logicalFolder name="tflite_bridge"
+                           displayName="tflite_bridge"
+                           projectFiles="true">
+              <itemPath>litert_src/tensorflow/lite/micro/tflite_bridge/flatbuffer_conversions_bridge.h</itemPath>
+              <itemPath>litert_src/tensorflow/lite/micro/tflite_bridge/micro_error_reporter.h</itemPath>
+            </logicalFolder>
+            <itemPath>litert_src/tensorflow/lite/micro/micro_interpreter.h</itemPath>
+            <itemPath>litert_src/tensorflow/lite/micro/compatibility.h</itemPath>
+            <itemPath>litert_src/tensorflow/lite/micro/micro_common.h</itemPath>
+            <itemPath>litert_src/tensorflow/lite/micro/micro_utils.h</itemPath>
+            <itemPath>litert_src/tensorflow/lite/micro/fake_micro_context.h</itemPath>
+            <itemPath>litert_src/tensorflow/lite/micro/micro_allocation_info.h</itemPath>
+            <itemPath>litert_src/tensorflow/lite/micro/mock_micro_graph.h</itemPath>
+            <itemPath>litert_src/tensorflow/lite/micro/micro_arena_constants.h</itemPath>
+            <itemPath>litert_src/tensorflow/lite/micro/micro_mutable_op_resolver.h</itemPath>
+            <itemPath>litert_src/tensorflow/lite/micro/test_helper_custom_ops.h</itemPath>
+            <itemPath>litert_src/tensorflow/lite/micro/debug_log.h</itemPath>
+            <itemPath>litert_src/tensorflow/lite/micro/flatbuffer_utils.h</itemPath>
+            <itemPath>litert_src/tensorflow/lite/micro/recording_micro_allocator.h</itemPath>
+            <itemPath>litert_src/tensorflow/lite/micro/test_helpers.h</itemPath>
+            <itemPath>litert_src/tensorflow/lite/micro/micro_graph.h</itemPath>
+            <itemPath>litert_src/tensorflow/lite/micro/compression.h</itemPath>
+            <itemPath>litert_src/tensorflow/lite/micro/micro_op_resolver.h</itemPath>
+            <itemPath>litert_src/tensorflow/lite/micro/micro_time.h</itemPath>
+            <itemPath>litert_src/tensorflow/lite/micro/micro_log.h</itemPath>
+            <itemPath>litert_src/tensorflow/lite/micro/system_setup.h</itemPath>
+            <itemPath>litert_src/tensorflow/lite/micro/micro_interpreter_graph.h</itemPath>
+            <itemPath>litert_src/tensorflow/lite/micro/static_vector.h</itemPath>
+            <itemPath>litert_src/tensorflow/lite/micro/span.h</itemPath>
+            <itemPath>litert_src/tensorflow/lite/micro/micro_profiler_interface.h</itemPath>
+            <itemPath>litert_src/tensorflow/lite/micro/micro_interpreter_context.h</itemPath>
+            <itemPath>litert_src/tensorflow/lite/micro/micro_context.h</itemPath>
+            <itemPath>litert_src/tensorflow/lite/micro/micro_allocator.h</itemPath>
+            <itemPath>litert_src/tensorflow/lite/micro/micro_resource_variable.h</itemPath>
+            <itemPath>litert_src/tensorflow/lite/micro/micro_profiler.h</itemPath>
+            <itemPath>litert_src/tensorflow/lite/micro/memory_helpers.h</itemPath>
+            <itemPath>litert_src/tensorflow/lite/micro/recording_micro_interpreter.h</itemPath>
+            <itemPath>litert_src/tensorflow/lite/micro/hexdump.h</itemPath>
+          </logicalFolder>
+          <logicalFolder name="schema" displayName="schema" projectFiles="true">
+            <itemPath>litert_src/tensorflow/lite/schema/schema_utils.h</itemPath>
+            <itemPath>litert_src/tensorflow/lite/schema/schema_generated.h</itemPath>
+          </logicalFolder>
+          <itemPath>litert_src/tensorflow/lite/context_util.h</itemPath>
+          <itemPath>litert_src/tensorflow/lite/portable_type_to_tflitetype.h</itemPath>
+          <itemPath>litert_src/tensorflow/lite/builtin_ops.h</itemPath>
+          <itemPath>litert_src/tensorflow/lite/builtin_op_data.h</itemPath>
+        </logicalFolder>
+      </logicalFolder>
+      <logicalFolder name="third_party" displayName="third_party" projectFiles="true">
+        <logicalFolder name="flatbuffers" displayName="flatbuffers" projectFiles="true">
+          <logicalFolder name="include" displayName="include" projectFiles="true">
+            <logicalFolder name="flatbuffers" displayName="flatbuffers" projectFiles="true">
+              <itemPath>litert_src/third_party/flatbuffers/include/flatbuffers/grpc.h</itemPath>
+              <itemPath>litert_src/third_party/flatbuffers/include/flatbuffers/code_generator.h</itemPath>
+              <itemPath>litert_src/third_party/flatbuffers/include/flatbuffers/idl.h</itemPath>
+              <itemPath>litert_src/third_party/flatbuffers/include/flatbuffers/verifier.h</itemPath>
+              <itemPath>litert_src/third_party/flatbuffers/include/flatbuffers/reflection_generated.h</itemPath>
+              <itemPath>litert_src/third_party/flatbuffers/include/flatbuffers/registry.h</itemPath>
+              <itemPath>litert_src/third_party/flatbuffers/include/flatbuffers/flatbuffers.h</itemPath>
+              <itemPath>litert_src/third_party/flatbuffers/include/flatbuffers/struct.h</itemPath>
+              <itemPath>litert_src/third_party/flatbuffers/include/flatbuffers/file_manager.h</itemPath>
+              <itemPath>litert_src/third_party/flatbuffers/include/flatbuffers/buffer.h</itemPath>
+              <itemPath>litert_src/third_party/flatbuffers/include/flatbuffers/allocator.h</itemPath>
+              <itemPath>litert_src/third_party/flatbuffers/include/flatbuffers/flexbuffers.h</itemPath>
+              <itemPath>litert_src/third_party/flatbuffers/include/flatbuffers/minireflect.h</itemPath>
+              <itemPath>litert_src/third_party/flatbuffers/include/flatbuffers/array.h</itemPath>
+              <itemPath>litert_src/third_party/flatbuffers/include/flatbuffers/default_allocator.h</itemPath>
+              <itemPath>litert_src/third_party/flatbuffers/include/flatbuffers/util.h</itemPath>
+              <itemPath>litert_src/third_party/flatbuffers/include/flatbuffers/code_generators.h</itemPath>
+              <itemPath>litert_src/third_party/flatbuffers/include/flatbuffers/stl_emulation.h</itemPath>
+              <itemPath>litert_src/third_party/flatbuffers/include/flatbuffers/table.h</itemPath>
+              <itemPath>litert_src/third_party/flatbuffers/include/flatbuffers/detached_buffer.h</itemPath>
+              <itemPath>litert_src/third_party/flatbuffers/include/flatbuffers/buffer_ref.h</itemPath>
+              <itemPath>litert_src/third_party/flatbuffers/include/flatbuffers/vector.h</itemPath>
+              <itemPath>litert_src/third_party/flatbuffers/include/flatbuffers/vector_downward.h</itemPath>
+              <itemPath>litert_src/third_party/flatbuffers/include/flatbuffers/flatbuffer_builder.h</itemPath>
+              <itemPath>litert_src/third_party/flatbuffers/include/flatbuffers/hash.h</itemPath>
+              <itemPath>litert_src/third_party/flatbuffers/include/flatbuffers/reflection.h</itemPath>
+              <itemPath>litert_src/third_party/flatbuffers/include/flatbuffers/flex_flat_util.h</itemPath>
+              <itemPath>litert_src/third_party/flatbuffers/include/flatbuffers/string.h</itemPath>
+              <itemPath>litert_src/third_party/flatbuffers/include/flatbuffers/base.h</itemPath>
+            </logicalFolder>
+          </logicalFolder>
+        </logicalFolder>
+        <logicalFolder name="gemmlowp" displayName="gemmlowp" projectFiles="true">
+          <logicalFolder name="fixedpoint" displayName="fixedpoint" projectFiles="true">
+            <itemPath>litert_src/third_party/gemmlowp/fixedpoint/fixedpoint_neon.h</itemPath>
+            <itemPath>litert_src/third_party/gemmlowp/fixedpoint/fixedpoint_sse.h</itemPath>
+            <itemPath>litert_src/third_party/gemmlowp/fixedpoint/fixedpoint.h</itemPath>
+          </logicalFolder>
+          <logicalFolder name="internal" displayName="internal" projectFiles="true">
+            <itemPath>litert_src/third_party/gemmlowp/internal/detect_platform.h</itemPath>
+          </logicalFolder>
+        </logicalFolder>
+        <logicalFolder name="kissfft" displayName="kissfft" projectFiles="true">
+          <logicalFolder name="tools" displayName="tools" projectFiles="true">
+            <itemPath>litert_src/third_party/kissfft/tools/kiss_fftr.h</itemPath>
+          </logicalFolder>
+          <itemPath>litert_src/third_party/kissfft/_kiss_fft_guts.h</itemPath>
+          <itemPath>litert_src/third_party/kissfft/kiss_fft.h</itemPath>
+        </logicalFolder>
+        <logicalFolder name="ruy" displayName="ruy" projectFiles="true">
+          <logicalFolder name="ruy" displayName="ruy" projectFiles="true">
+            <logicalFolder name="profiler" displayName="profiler" projectFiles="true">
+              <itemPath>litert_src/third_party/ruy/ruy/profiler/instrumentation.h</itemPath>
+            </logicalFolder>
+          </logicalFolder>
+        </logicalFolder>
+      </logicalFolder>
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="true">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+    <logicalFolder name="LinkerScript"
+                   displayName="Linker Files"
+                   projectFiles="true">
+    </logicalFolder>
+    <logicalFolder name="SourceFiles"
+                   displayName="Source Files"
+                   projectFiles="true">
+      <logicalFolder name="signal" displayName="signal" projectFiles="true">
+        <logicalFolder name="micro" displayName="micro" projectFiles="true">
+          <logicalFolder name="kernels" displayName="kernels" projectFiles="true">
+            <itemPath>litert_src/signal/micro/kernels/fft_auto_scale_common.cc</itemPath>
+            <itemPath>litert_src/signal/micro/kernels/pcan.cc</itemPath>
+            <itemPath>litert_src/signal/micro/kernels/filter_bank_log.cc</itemPath>
+            <itemPath>litert_src/signal/micro/kernels/filter_bank_spectral_subtraction.cc</itemPath>
+            <itemPath>litert_src/signal/micro/kernels/energy.cc</itemPath>
+            <itemPath>litert_src/signal/micro/kernels/rfft.cc</itemPath>
+            <itemPath>litert_src/signal/micro/kernels/delay.cc</itemPath>
+            <itemPath>litert_src/signal/micro/kernels/framer.cc</itemPath>
+            <itemPath>litert_src/signal/micro/kernels/overlap_add.cc</itemPath>
+            <itemPath>litert_src/signal/micro/kernels/stacker.cc</itemPath>
+            <itemPath>litert_src/signal/micro/kernels/fft_auto_scale_kernel.cc</itemPath>
+            <itemPath>litert_src/signal/micro/kernels/irfft.cc</itemPath>
+            <itemPath>litert_src/signal/micro/kernels/filter_bank.cc</itemPath>
+            <itemPath>litert_src/signal/micro/kernels/filter_bank_square_root_common.cc</itemPath>
+            <itemPath>litert_src/signal/micro/kernels/filter_bank_square_root.cc</itemPath>
+            <itemPath>litert_src/signal/micro/kernels/window.cc</itemPath>
+          </logicalFolder>
+        </logicalFolder>
+        <logicalFolder name="src" displayName="src" projectFiles="true">
+          <logicalFolder name="kiss_fft_wrappers"
+                         displayName="kiss_fft_wrappers"
+                         projectFiles="true">
+            <itemPath>litert_src/signal/src/kiss_fft_wrappers/kiss_fft_int32.cc</itemPath>
+            <itemPath>litert_src/signal/src/kiss_fft_wrappers/kiss_fft_int16.cc</itemPath>
+            <itemPath>litert_src/signal/src/kiss_fft_wrappers/kiss_fft_float.cc</itemPath>
+          </logicalFolder>
+          <itemPath>litert_src/signal/src/irfft_int16.cc</itemPath>
+          <itemPath>litert_src/signal/src/irfft_int32.cc</itemPath>
+          <itemPath>litert_src/signal/src/filter_bank_log.cc</itemPath>
+          <itemPath>litert_src/signal/src/msb_32.cc</itemPath>
+          <itemPath>litert_src/signal/src/max_abs.cc</itemPath>
+          <itemPath>litert_src/signal/src/rfft_int16.cc</itemPath>
+          <itemPath>litert_src/signal/src/rfft_int32.cc</itemPath>
+          <itemPath>litert_src/signal/src/square_root_32.cc</itemPath>
+          <itemPath>litert_src/signal/src/filter_bank_spectral_subtraction.cc</itemPath>
+          <itemPath>litert_src/signal/src/energy.cc</itemPath>
+          <itemPath>litert_src/signal/src/circular_buffer.cc</itemPath>
+          <itemPath>litert_src/signal/src/overlap_add.cc</itemPath>
+          <itemPath>litert_src/signal/src/rfft_float.cc</itemPath>
+          <itemPath>litert_src/signal/src/square_root_64.cc</itemPath>
+          <itemPath>litert_src/signal/src/msb_64.cc</itemPath>
+          <itemPath>litert_src/signal/src/pcan_argc_fixed.cc</itemPath>
+          <itemPath>litert_src/signal/src/irfft_float.cc</itemPath>
+          <itemPath>litert_src/signal/src/filter_bank.cc</itemPath>
+          <itemPath>litert_src/signal/src/filter_bank_square_root.cc</itemPath>
+          <itemPath>litert_src/signal/src/window.cc</itemPath>
+          <itemPath>litert_src/signal/src/log.cc</itemPath>
+          <itemPath>litert_src/signal/src/fft_auto_scale.cc</itemPath>
+        </logicalFolder>
+      </logicalFolder>
+      <logicalFolder name="tensorflow" displayName="tensorflow" projectFiles="true">
+        <logicalFolder name="compiler" displayName="compiler" projectFiles="true">
+          <logicalFolder name="mlir" displayName="mlir" projectFiles="true">
+            <logicalFolder name="lite" displayName="lite" projectFiles="true">
+              <logicalFolder name="core" displayName="core" projectFiles="true">
+                <logicalFolder name="api" displayName="api" projectFiles="true">
+                  <itemPath>litert_src/tensorflow/compiler/mlir/lite/core/api/error_reporter.cc</itemPath>
+                </logicalFolder>
+                <logicalFolder name="c" displayName="c" projectFiles="true">
+                </logicalFolder>
+              </logicalFolder>
+              <logicalFolder name="kernels" displayName="kernels" projectFiles="true">
+                <logicalFolder name="internal" displayName="internal" projectFiles="true">
+                </logicalFolder>
+              </logicalFolder>
+              <logicalFolder name="schema" displayName="schema" projectFiles="true">
+                <itemPath>litert_src/tensorflow/compiler/mlir/lite/schema/schema_utils.cc</itemPath>
+              </logicalFolder>
+            </logicalFolder>
+          </logicalFolder>
+        </logicalFolder>
+        <logicalFolder name="lite" displayName="lite" projectFiles="true">
+          <logicalFolder name="c" displayName="c" projectFiles="true">
+          </logicalFolder>
+          <logicalFolder name="core" displayName="core" projectFiles="true">
+            <logicalFolder name="api" displayName="api" projectFiles="true">
+              <itemPath>litert_src/tensorflow/lite/core/api/tensor_utils.cc</itemPath>
+              <itemPath>litert_src/tensorflow/lite/core/api/flatbuffer_conversions.cc</itemPath>
+            </logicalFolder>
+            <logicalFolder name="c" displayName="c" projectFiles="true">
+              <itemPath>litert_src/tensorflow/lite/core/c/common.cc</itemPath>
+            </logicalFolder>
+          </logicalFolder>
+          <logicalFolder name="kernels" displayName="kernels" projectFiles="true">
+            <logicalFolder name="internal" displayName="internal" projectFiles="true">
+              <logicalFolder name="optimized" displayName="optimized" projectFiles="true">
+              </logicalFolder>
+              <logicalFolder name="reference" displayName="reference" projectFiles="true">
+                <logicalFolder name="integer_ops" displayName="integer_ops" projectFiles="true">
+                </logicalFolder>
+                <itemPath>litert_src/tensorflow/lite/kernels/internal/reference/portable_tensor_utils.cc</itemPath>
+                <itemPath>litert_src/tensorflow/lite/kernels/internal/reference/comparisons.cc</itemPath>
+              </logicalFolder>
+              <itemPath>litert_src/tensorflow/lite/kernels/internal/tensor_utils.cc</itemPath>
+              <itemPath>litert_src/tensorflow/lite/kernels/internal/common.cc</itemPath>
+              <itemPath>litert_src/tensorflow/lite/kernels/internal/portable_tensor_utils.cc</itemPath>
+              <itemPath>litert_src/tensorflow/lite/kernels/internal/tensor_ctypes.cc</itemPath>
+              <itemPath>litert_src/tensorflow/lite/kernels/internal/runtime_shape.cc</itemPath>
+              <itemPath>litert_src/tensorflow/lite/kernels/internal/quantization_util.cc</itemPath>
+            </logicalFolder>
+            <itemPath>litert_src/tensorflow/lite/kernels/kernel_util.cc</itemPath>
+          </logicalFolder>
+          <logicalFolder name="micro" displayName="micro" projectFiles="true">
+            <logicalFolder name="arena_allocator"
+                           displayName="arena_allocator"
+                           projectFiles="true">
+              <itemPath>litert_src/tensorflow/lite/micro/arena_allocator/non_persistent_arena_buffer_allocator.cc</itemPath>
+              <itemPath>litert_src/tensorflow/lite/micro/arena_allocator/recording_single_arena_buffer_allocator.cc</itemPath>
+              <itemPath>litert_src/tensorflow/lite/micro/arena_allocator/persistent_arena_buffer_allocator.cc</itemPath>
+              <itemPath>litert_src/tensorflow/lite/micro/arena_allocator/single_arena_buffer_allocator.cc</itemPath>
+            </logicalFolder>
+            <logicalFolder name="kernels" displayName="kernels" projectFiles="true">
+              <itemPath>litert_src/tensorflow/lite/micro/kernels/elu.cc</itemPath>
+              <itemPath>litert_src/tensorflow/lite/micro/kernels/concatenation.cc</itemPath>
+              <itemPath>litert_src/tensorflow/lite/micro/kernels/squeeze.cc</itemPath>
+              <itemPath>litert_src/tensorflow/lite/micro/kernels/read_variable.cc</itemPath>
+              <itemPath>litert_src/tensorflow/lite/micro/kernels/svdf_common.cc</itemPath>
+              <itemPath>litert_src/tensorflow/lite/micro/kernels/batch_to_space_nd.cc</itemPath>
+              <itemPath>litert_src/tensorflow/lite/micro/kernels/select.cc</itemPath>
+              <itemPath>litert_src/tensorflow/lite/micro/kernels/fully_connected_common.cc</itemPath>
+              <itemPath>litert_src/tensorflow/lite/micro/kernels/broadcast_to.cc</itemPath>
+              <itemPath>litert_src/tensorflow/lite/micro/kernels/cumsum.cc</itemPath>
+              <itemPath>litert_src/tensorflow/lite/micro/kernels/conv.cc</itemPath>
+              <itemPath>litert_src/tensorflow/lite/micro/kernels/leaky_relu_common.cc</itemPath>
+              <itemPath>litert_src/tensorflow/lite/micro/kernels/depthwise_conv.cc</itemPath>
+              <itemPath>litert_src/tensorflow/lite/micro/kernels/l2_pool_2d.cc</itemPath>
+              <itemPath>litert_src/tensorflow/lite/micro/kernels/depthwise_conv_common.cc</itemPath>
+              <itemPath>litert_src/tensorflow/lite/micro/kernels/floor_mod.cc</itemPath>
+              <itemPath>litert_src/tensorflow/lite/micro/kernels/if.cc</itemPath>
+              <itemPath>litert_src/tensorflow/lite/micro/kernels/exp.cc</itemPath>
+              <itemPath>litert_src/tensorflow/lite/micro/kernels/mul_common.cc</itemPath>
+              <itemPath>litert_src/tensorflow/lite/micro/kernels/space_to_batch_nd.cc</itemPath>
+              <itemPath>litert_src/tensorflow/lite/micro/kernels/batch_matmul_common.cc</itemPath>
+              <itemPath>litert_src/tensorflow/lite/micro/kernels/strided_slice_common.cc</itemPath>
+              <itemPath>litert_src/tensorflow/lite/micro/kernels/softmax.cc</itemPath>
+              <itemPath>litert_src/tensorflow/lite/micro/kernels/var_handle.cc</itemPath>
+              <itemPath>litert_src/tensorflow/lite/micro/kernels/round.cc</itemPath>
+              <itemPath>litert_src/tensorflow/lite/micro/kernels/conv_common.cc</itemPath>
+              <itemPath>litert_src/tensorflow/lite/micro/kernels/strided_slice.cc</itemPath>
+              <itemPath>litert_src/tensorflow/lite/micro/kernels/prelu.cc</itemPath>
+              <itemPath>litert_src/tensorflow/lite/micro/kernels/unidirectional_sequence_lstm.cc</itemPath>
+              <itemPath>litert_src/tensorflow/lite/micro/kernels/split.cc</itemPath>
+              <itemPath>litert_src/tensorflow/lite/micro/kernels/transpose.cc</itemPath>
+              <itemPath>litert_src/tensorflow/lite/micro/kernels/assign_variable.cc</itemPath>
+              <itemPath>litert_src/tensorflow/lite/micro/kernels/kernel_util.cc</itemPath>
+              <itemPath>litert_src/tensorflow/lite/micro/kernels/expand_dims.cc</itemPath>
+              <itemPath>litert_src/tensorflow/lite/micro/kernels/dequantize_common.cc</itemPath>
+              <itemPath>litert_src/tensorflow/lite/micro/kernels/transpose_conv.cc</itemPath>
+              <itemPath>litert_src/tensorflow/lite/micro/kernels/while.cc</itemPath>
+              <itemPath>litert_src/tensorflow/lite/micro/kernels/fully_connected.cc</itemPath>
+              <itemPath>litert_src/tensorflow/lite/micro/kernels/pad.cc</itemPath>
+              <itemPath>litert_src/tensorflow/lite/micro/kernels/sub_common.cc</itemPath>
+              <itemPath>litert_src/tensorflow/lite/micro/kernels/mul.cc</itemPath>
+              <itemPath>litert_src/tensorflow/lite/micro/kernels/dequantize.cc</itemPath>
+              <itemPath>litert_src/tensorflow/lite/micro/kernels/resize_nearest_neighbor.cc</itemPath>
+              <itemPath>litert_src/tensorflow/lite/micro/kernels/unpack.cc</itemPath>
+              <itemPath>litert_src/tensorflow/lite/micro/kernels/arg_min_max.cc</itemPath>
+              <itemPath>litert_src/tensorflow/lite/micro/kernels/shape.cc</itemPath>
+              <itemPath>litert_src/tensorflow/lite/micro/kernels/gather_nd.cc</itemPath>
+              <itemPath>litert_src/tensorflow/lite/micro/kernels/circular_buffer.cc</itemPath>
+              <itemPath>litert_src/tensorflow/lite/micro/kernels/decompress_common.cc</itemPath>
+              <itemPath>litert_src/tensorflow/lite/micro/kernels/prelu_common.cc</itemPath>
+              <itemPath>litert_src/tensorflow/lite/micro/kernels/sub.cc</itemPath>
+              <itemPath>litert_src/tensorflow/lite/micro/kernels/activations_common.cc</itemPath>
+              <itemPath>litert_src/tensorflow/lite/micro/kernels/reshape.cc</itemPath>
+              <itemPath>litert_src/tensorflow/lite/micro/kernels/zeros_like.cc</itemPath>
+              <itemPath>litert_src/tensorflow/lite/micro/kernels/depth_to_space.cc</itemPath>
+              <itemPath>litert_src/tensorflow/lite/micro/kernels/activations.cc</itemPath>
+              <itemPath>litert_src/tensorflow/lite/micro/kernels/detection_postprocess.cc</itemPath>
+              <itemPath>litert_src/tensorflow/lite/micro/kernels/logistic.cc</itemPath>
+              <itemPath>litert_src/tensorflow/lite/micro/kernels/reduce_common.cc</itemPath>
+              <itemPath>litert_src/tensorflow/lite/micro/kernels/softmax_common.cc</itemPath>
+              <itemPath>litert_src/tensorflow/lite/micro/kernels/call_once.cc</itemPath>
+              <itemPath>litert_src/tensorflow/lite/micro/kernels/squared_difference.cc</itemPath>
+              <itemPath>litert_src/tensorflow/lite/micro/kernels/quantize_common.cc</itemPath>
+              <itemPath>litert_src/tensorflow/lite/micro/kernels/ceil.cc</itemPath>
+              <itemPath>litert_src/tensorflow/lite/micro/kernels/add_n.cc</itemPath>
+              <itemPath>litert_src/tensorflow/lite/micro/kernels/hard_swish.cc</itemPath>
+              <itemPath>litert_src/tensorflow/lite/micro/kernels/add_common.cc</itemPath>
+              <itemPath>litert_src/tensorflow/lite/micro/kernels/lstm_eval.cc</itemPath>
+              <itemPath>litert_src/tensorflow/lite/micro/kernels/elementwise.cc</itemPath>
+              <itemPath>litert_src/tensorflow/lite/micro/kernels/pooling.cc</itemPath>
+              <itemPath>litert_src/tensorflow/lite/micro/kernels/floor.cc</itemPath>
+              <itemPath>litert_src/tensorflow/lite/micro/kernels/log_softmax.cc</itemPath>
+              <itemPath>litert_src/tensorflow/lite/micro/kernels/cast.cc</itemPath>
+              <itemPath>litert_src/tensorflow/lite/micro/kernels/svdf.cc</itemPath>
+              <itemPath>litert_src/tensorflow/lite/micro/kernels/gather.cc</itemPath>
+              <itemPath>litert_src/tensorflow/lite/micro/kernels/circular_buffer_common.cc</itemPath>
+              <itemPath>litert_src/tensorflow/lite/micro/kernels/micro_tensor_utils.cc</itemPath>
+              <itemPath>litert_src/tensorflow/lite/micro/kernels/mirror_pad.cc</itemPath>
+              <itemPath>litert_src/tensorflow/lite/micro/kernels/broadcast_args.cc</itemPath>
+              <itemPath>litert_src/tensorflow/lite/micro/kernels/maximum_minimum.cc</itemPath>
+              <itemPath>litert_src/tensorflow/lite/micro/kernels/ethosu.cc</itemPath>
+              <itemPath>litert_src/tensorflow/lite/micro/kernels/pack.cc</itemPath>
+              <itemPath>litert_src/tensorflow/lite/micro/kernels/split_v.cc</itemPath>
+              <itemPath>litert_src/tensorflow/lite/micro/kernels/batch_matmul.cc</itemPath>
+              <itemPath>litert_src/tensorflow/lite/micro/kernels/logistic_common.cc</itemPath>
+              <itemPath>litert_src/tensorflow/lite/micro/kernels/slice.cc</itemPath>
+              <itemPath>litert_src/tensorflow/lite/micro/kernels/fill.cc</itemPath>
+              <itemPath>litert_src/tensorflow/lite/micro/kernels/space_to_depth.cc</itemPath>
+              <itemPath>litert_src/tensorflow/lite/micro/kernels/leaky_relu.cc</itemPath>
+              <itemPath>litert_src/tensorflow/lite/micro/kernels/comparisons.cc</itemPath>
+              <itemPath>litert_src/tensorflow/lite/micro/kernels/lstm_eval_common.cc</itemPath>
+              <itemPath>litert_src/tensorflow/lite/micro/kernels/reduce.cc</itemPath>
+              <itemPath>litert_src/tensorflow/lite/micro/kernels/quantize.cc</itemPath>
+              <itemPath>litert_src/tensorflow/lite/micro/kernels/div.cc</itemPath>
+              <itemPath>litert_src/tensorflow/lite/micro/kernels/logical.cc</itemPath>
+              <itemPath>litert_src/tensorflow/lite/micro/kernels/embedding_lookup.cc</itemPath>
+              <itemPath>litert_src/tensorflow/lite/micro/kernels/tanh.cc</itemPath>
+              <itemPath>litert_src/tensorflow/lite/micro/kernels/logical_common.cc</itemPath>
+              <itemPath>litert_src/tensorflow/lite/micro/kernels/l2norm.cc</itemPath>
+              <itemPath>litert_src/tensorflow/lite/micro/kernels/resize_bilinear.cc</itemPath>
+              <itemPath>litert_src/tensorflow/lite/micro/kernels/pooling_common.cc</itemPath>
+              <itemPath>litert_src/tensorflow/lite/micro/kernels/neg.cc</itemPath>
+              <itemPath>litert_src/tensorflow/lite/micro/kernels/reshape_common.cc</itemPath>
+              <itemPath>litert_src/tensorflow/lite/micro/kernels/hard_swish_common.cc</itemPath>
+              <itemPath>litert_src/tensorflow/lite/micro/kernels/kernel_runner.cc</itemPath>
+              <itemPath>litert_src/tensorflow/lite/micro/kernels/decompress.cc</itemPath>
+              <itemPath>litert_src/tensorflow/lite/micro/kernels/add.cc</itemPath>
+              <itemPath>litert_src/tensorflow/lite/micro/kernels/floor_div.cc</itemPath>
+            </logicalFolder>
+            <logicalFolder name="memory_planner"
+                           displayName="memory_planner"
+                           projectFiles="true">
+              <itemPath>litert_src/tensorflow/lite/micro/memory_planner/greedy_memory_planner.cc</itemPath>
+              <itemPath>litert_src/tensorflow/lite/micro/memory_planner/non_persistent_buffer_planner_shim.cc</itemPath>
+              <itemPath>litert_src/tensorflow/lite/micro/memory_planner/linear_memory_planner.cc</itemPath>
+            </logicalFolder>
+            <logicalFolder name="models" displayName="models" projectFiles="true">
+              <itemPath>litert_src/tensorflow/lite/micro/models/person_detect_model_data.cc</itemPath>
+            </logicalFolder>
+            <logicalFolder name="testing" displayName="testing" projectFiles="true">
+            </logicalFolder>
+            <logicalFolder name="tflite_bridge"
+                           displayName="tflite_bridge"
+                           projectFiles="true">
+              <itemPath>litert_src/tensorflow/lite/micro/tflite_bridge/micro_error_reporter.cc</itemPath>
+              <itemPath>litert_src/tensorflow/lite/micro/tflite_bridge/flatbuffer_conversions_bridge.cc</itemPath>
+            </logicalFolder>
+            <itemPath>litert_src/tensorflow/lite/micro/hexdump.cc</itemPath>
+            <itemPath>litert_src/tensorflow/lite/micro/test_helpers.cc</itemPath>
+            <itemPath>litert_src/tensorflow/lite/micro/mock_micro_graph.cc</itemPath>
+            <itemPath>litert_src/tensorflow/lite/micro/micro_allocation_info.cc</itemPath>
+            <itemPath>litert_src/tensorflow/lite/micro/micro_op_resolver.cc</itemPath>
+            <itemPath>litert_src/tensorflow/lite/micro/micro_profiler.cc</itemPath>
+            <itemPath>litert_src/tensorflow/lite/micro/micro_context.cc</itemPath>
+            <itemPath>litert_src/tensorflow/lite/micro/micro_resource_variable.cc</itemPath>
+            <itemPath>litert_src/tensorflow/lite/micro/debug_log.cc</itemPath>
+            <itemPath>litert_src/tensorflow/lite/micro/system_setup.cc</itemPath>
+            <itemPath>litert_src/tensorflow/lite/micro/test_helper_custom_ops.cc</itemPath>
+            <itemPath>litert_src/tensorflow/lite/micro/hexdump_test.cc</itemPath>
+            <itemPath>litert_src/tensorflow/lite/micro/micro_log.cc</itemPath>
+            <itemPath>litert_src/tensorflow/lite/micro/recording_micro_allocator.cc</itemPath>
+            <itemPath>litert_src/tensorflow/lite/micro/micro_interpreter_context.cc</itemPath>
+            <itemPath>litert_src/tensorflow/lite/micro/micro_interpreter.cc</itemPath>
+            <itemPath>litert_src/tensorflow/lite/micro/fake_micro_context.cc</itemPath>
+            <itemPath>litert_src/tensorflow/lite/micro/micro_interpreter_graph.cc</itemPath>
+            <itemPath>litert_src/tensorflow/lite/micro/micro_time.cc</itemPath>
+            <itemPath>litert_src/tensorflow/lite/micro/micro_utils.cc</itemPath>
+            <itemPath>litert_src/tensorflow/lite/micro/flatbuffer_utils.cc</itemPath>
+            <itemPath>litert_src/tensorflow/lite/micro/micro_allocator.cc</itemPath>
+            <itemPath>litert_src/tensorflow/lite/micro/memory_helpers.cc</itemPath>
+          </logicalFolder>
+          <logicalFolder name="schema" displayName="schema" projectFiles="true">
+          </logicalFolder>
+          <itemPath>litert_src/tensorflow/lite/array.cc</itemPath>
+        </logicalFolder>
+      </logicalFolder>
+      <logicalFolder name="third_party" displayName="third_party" projectFiles="true">
+        <logicalFolder name="flatbuffers" displayName="flatbuffers" projectFiles="true">
+          <logicalFolder name="include" displayName="include" projectFiles="true">
+            <logicalFolder name="flatbuffers" displayName="flatbuffers" projectFiles="true">
+            </logicalFolder>
+          </logicalFolder>
+        </logicalFolder>
+        <logicalFolder name="gemmlowp" displayName="gemmlowp" projectFiles="true">
+          <logicalFolder name="fixedpoint" displayName="fixedpoint" projectFiles="true">
+          </logicalFolder>
+          <logicalFolder name="internal" displayName="internal" projectFiles="true">
+          </logicalFolder>
+        </logicalFolder>
+        <logicalFolder name="kissfft" displayName="kissfft" projectFiles="true">
+          <logicalFolder name="tools" displayName="tools" projectFiles="true">
+            <itemPath>litert_src/third_party/kissfft/tools/kiss_fftr.c</itemPath>
+          </logicalFolder>
+          <itemPath>litert_src/third_party/kissfft/kiss_fft.c</itemPath>
+        </logicalFolder>
+        <logicalFolder name="ruy" displayName="ruy" projectFiles="true">
+          <logicalFolder name="ruy" displayName="ruy" projectFiles="true">
+            <logicalFolder name="profiler" displayName="profiler" projectFiles="true">
+            </logicalFolder>
+          </logicalFolder>
+        </logicalFolder>
+      </logicalFolder>
+    </logicalFolder>
+  </logicalFolder>
+  <sourceRootList>
+    <Elem>litert_src/signal</Elem>
+    <Elem>litert_src/tensorflow</Elem>
+    <Elem>litert_src/third_party</Elem>
+  </sourceRootList>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="default" type="3">
+      <toolsSet>
+        <developmentServer>localhost</developmentServer>
+        <targetDevice>WFI32E01</targetDevice>
+        <targetHeader></targetHeader>
+        <targetPluginBoard></targetPluginBoard>
+        <platformTool>noID</platformTool>
+        <languageToolchain>XC32</languageToolchain>
+        <languageToolchainVersion>4.45</languageToolchainVersion>
+        <platform>4</platform>
+      </toolsSet>
+      <packs>
+        <pack name="PIC32MZ-W_DFP" vendor="Microchip" version="1.9.330"/>
+      </packs>
+      <ScriptingSettings>
+      </ScriptingSettings>
+      <compileType>
+        <linkerTool>
+          <linkerLibItems>
+          </linkerLibItems>
+        </linkerTool>
+        <archiverTool>
+        </archiverTool>
+        <loading>
+          <useAlternateLoadableFile>false</useAlternateLoadableFile>
+          <parseOnProdLoad>false</parseOnProdLoad>
+          <alternateLoadableFile></alternateLoadableFile>
+        </loading>
+        <subordinates>
+        </subordinates>
+      </compileType>
+      <makeCustomizationType>
+        <makeCustomizationPreStepEnabled>false</makeCustomizationPreStepEnabled>
+        <makeUseCleanTarget>false</makeUseCleanTarget>
+        <makeCustomizationPreStep></makeCustomizationPreStep>
+        <makeCustomizationPostStepEnabled>false</makeCustomizationPostStepEnabled>
+        <makeCustomizationPostStep></makeCustomizationPostStep>
+        <makeCustomizationPutChecksumInUserID>false</makeCustomizationPutChecksumInUserID>
+        <makeCustomizationEnableLongLines>false</makeCustomizationEnableLongLines>
+        <makeCustomizationNormalizeHexFile>false</makeCustomizationNormalizeHexFile>
+      </makeCustomizationType>
+      <C32>
+        <property key="additional-warnings" value="false"/>
+        <property key="addresss-attribute-use" value="false"/>
+        <property key="enable-app-io" value="false"/>
+        <property key="enable-omit-frame-pointer" value="false"/>
+        <property key="enable-symbols" value="true"/>
+        <property key="enable-unroll-loops" value="false"/>
+        <property key="exclude-floating-point" value="false"/>
+        <property key="extra-include-directories"
+                  value="litert_src/third_party/kissfft"/>
+        <property key="generate-16-bit-code" value="false"/>
+        <property key="generate-micro-compressed-code" value="false"/>
+        <property key="isolate-each-function" value="false"/>
+        <property key="make-warnings-into-errors" value="false"/>
+        <property key="optimization-level" value=""/>
+        <property key="place-data-into-section" value="false"/>
+        <property key="post-instruction-scheduling" value="default"/>
+        <property key="pre-instruction-scheduling" value="default"/>
+        <property key="preprocessor-macros" value=""/>
+        <property key="strict-ansi" value="false"/>
+        <property key="support-ansi" value="false"/>
+        <property key="tentative-definitions" value="-fno-common"/>
+        <property key="toplevel-reordering" value=""/>
+        <property key="unaligned-access" value=""/>
+        <property key="use-cci" value="false"/>
+        <property key="use-iar" value="false"/>
+        <property key="use-indirect-calls" value="false"/>
+      </C32>
+      <C32-AR>
+        <property key="additional-options-chop-files" value="false"/>
+      </C32-AR>
+      <C32-AS>
+        <property key="assembler-symbols" value=""/>
+        <property key="enable-symbols" value="true"/>
+        <property key="exclude-floating-point-library" value="false"/>
+        <property key="expand-macros" value="false"/>
+        <property key="extra-include-directories-for-assembler" value=""/>
+        <property key="extra-include-directories-for-preprocessor" value=""/>
+        <property key="false-conditionals" value="false"/>
+        <property key="generate-16-bit-code" value="false"/>
+        <property key="generate-micro-compressed-code" value="false"/>
+        <property key="keep-locals" value="false"/>
+        <property key="list-assembly" value="false"/>
+        <property key="list-source" value="false"/>
+        <property key="list-symbols" value="false"/>
+        <property key="oXC32asm-list-to-file" value="false"/>
+        <property key="omit-debug-dirs" value="false"/>
+        <property key="omit-forms" value="false"/>
+        <property key="preprocessor-macros" value=""/>
+        <property key="warning-level" value=""/>
+      </C32-AS>
+      <C32-CO>
+        <property key="coverage-enable" value=""/>
+        <property key="stack-guidance" value="false"/>
+      </C32-CO>
+      <C32-LD>
+        <property key="additional-options-use-response-files" value="false"/>
+        <property key="additional-options-write-sla" value="false"/>
+        <property key="allocate-dinit" value="false"/>
+        <property key="code-dinit" value="false"/>
+        <property key="ebase-addr" value=""/>
+        <property key="enable-check-sections" value="false"/>
+        <property key="exclude-floating-point-library" value="false"/>
+        <property key="exclude-standard-libraries" value="false"/>
+        <property key="extra-lib-directories" value=""/>
+        <property key="fill-flash-options-addr" value=""/>
+        <property key="fill-flash-options-const" value=""/>
+        <property key="fill-flash-options-how" value="0"/>
+        <property key="fill-flash-options-inc-const" value="1"/>
+        <property key="fill-flash-options-increment" value=""/>
+        <property key="fill-flash-options-seq" value=""/>
+        <property key="fill-flash-options-what" value="0"/>
+        <property key="generate-16-bit-code" value="false"/>
+        <property key="generate-cross-reference-file" value="false"/>
+        <property key="generate-micro-compressed-code" value="false"/>
+        <property key="heap-size" value=""/>
+        <property key="input-libraries" value=""/>
+        <property key="kseg-length" value=""/>
+        <property key="kseg-origin" value=""/>
+        <property key="linker-symbols" value=""/>
+        <property key="map-file" value="${DISTDIR}/${PROJECTNAME}.${IMAGE_TYPE}.map"/>
+        <property key="no-device-startup-code" value="false"/>
+        <property key="no-startup-files" value="false"/>
+        <property key="oXC32ld-extra-opts" value=""/>
+        <property key="optimization-level" value=""/>
+        <property key="preprocessor-macros" value=""/>
+        <property key="remove-unused-sections" value="false"/>
+        <property key="report-memory-usage" value="false"/>
+        <property key="serial-length" value=""/>
+        <property key="serial-origin" value=""/>
+        <property key="stack-size" value=""/>
+        <property key="symbol-stripping" value=""/>
+        <property key="trace-symbols" value=""/>
+        <property key="warn-section-align" value="false"/>
+      </C32-LD>
+      <C32CPP>
+        <property key="additional-warnings" value="false"/>
+        <property key="addresss-attribute-use" value="false"/>
+        <property key="check-new" value="false"/>
+        <property key="eh-specs" value="true"/>
+        <property key="enable-app-io" value="false"/>
+        <property key="enable-omit-frame-pointer" value="false"/>
+        <property key="enable-symbols" value="true"/>
+        <property key="enable-unroll-loops" value="false"/>
+        <property key="exceptions" value="true"/>
+        <property key="exclude-floating-point" value="false"/>
+        <property key="extra-include-directories"
+                  value="litert_src;litert_src/third_party/flatbuffers/include;litert_src/third_party/kissfft;litert_src/third_party/gemmlowp;litert_src/third_party/ruy"/>
+        <property key="generate-16-bit-code" value="false"/>
+        <property key="generate-micro-compressed-code" value="false"/>
+        <property key="isolate-each-function" value="false"/>
+        <property key="make-warnings-into-errors" value="false"/>
+        <property key="optimization-level" value=""/>
+        <property key="place-data-into-section" value="false"/>
+        <property key="post-instruction-scheduling" value="default"/>
+        <property key="pre-instruction-scheduling" value="default"/>
+        <property key="preprocessor-macros" value=""/>
+        <property key="rtti" value="true"/>
+        <property key="strict-ansi" value="false"/>
+        <property key="toplevel-reordering" value=""/>
+        <property key="unaligned-access" value=""/>
+        <property key="use-cci" value="false"/>
+        <property key="use-iar" value="false"/>
+        <property key="use-indirect-calls" value="false"/>
+        <appendMe value="-std=c++17"/>
+      </C32CPP>
+      <C32Global>
+        <property key="common-include-directories" value=""/>
+        <property key="gp-relative-option" value=""/>
+        <property key="legacy-libc" value="true"/>
+        <property key="mdtcm" value=""/>
+        <property key="mitcm" value=""/>
+        <property key="mstacktcm" value="false"/>
+        <property key="omit-pack-options" value="1"/>
+        <property key="relaxed-math" value="false"/>
+        <property key="save-temps" value="false"/>
+        <property key="stack-smashing" value=""/>
+        <property key="wpo-lto" value="false"/>
+      </C32Global>
+    </conf>
+  </confs>
+</configurationDescriptor>
